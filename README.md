@@ -42,3 +42,9 @@ Test the connection with:
 ```console
 python -m sandbox llm
 ```
+
+## Reflection
+Season 3: I revised footman feedback, added better utility functions and pathfinding based on terrain and the new charge/wall changes. I also reworked how the characters work together from observation, so they now work together with an indirectly planned formation. With the chat, they let out coordinate information only when it is important. I optimized memory, roles, and decision-making with the new changes and feedback I got, and set up a better strategy for the agents to follow. 
+
+## AI Use Disclosure and Reflection
+I used Claude Code in VS Code. It coded all of this based on my pseudocode and instructions. I verified each set of code it wrote before approving it, reverted and asked for changes as needed, tested by watching and eval, and discussed my ideas for solutions before committing to one. I did not write any code directly, but read through it to check it. I had it set to ask for approval before committing anything, and that worked especially during testing and understanding what code was being changed. The most successful part was that we made and followed a plan based on what I wanted, and slowly went through it while changing code and testing. 
